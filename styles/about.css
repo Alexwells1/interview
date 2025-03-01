@@ -1,5 +1,4 @@
 
-/* Base Styles */
 :root {
     --primary: #4B5945;
     --secondary: #66785F;
@@ -37,7 +36,7 @@ img {
     padding: 0 1.5rem;
 }
 
-/* Header */
+
 .header {
     position: fixed;
     top: 0;
@@ -86,24 +85,9 @@ nav{
     font-weight: 600;
 }
 
-.nav-links {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-}
 
-.nav-link {
-    color: var(--quaternary);
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    transition: color 0.3s;
-}
 
-.nav-link:hover {
-    color: var(--tertiary);
-}
 
-/* About Hero Section */
 .about-hero {
     background-color: var(--primary);
     color: var(--quaternary);
@@ -116,14 +100,13 @@ nav{
     font-weight: 700;
     margin-bottom: 1rem;
 }
-
 .about-subtitle {
     font-size: 1.25rem;
     max-width: 700px;
     margin: 0 auto;
 }
 
-/* Bio Section */
+
 .bio-section {
     padding: 5rem 0;
     background-color: var(--quaternary);
@@ -163,7 +146,6 @@ nav{
     font-size: 1.1rem;
 }
 
-/* Timeline Sections */
 
 .section-title {
     font-size: 1.875rem;
@@ -249,7 +231,6 @@ nav{
     margin-bottom: 0.5rem;
 }
 
-/* Interests Section */
 .interests-section {
     padding: 5rem 0;
     background-color: var(--quaternary);
@@ -288,7 +269,6 @@ nav{
     color: var(--primary);
 }
 
-/* Contact Section */
 .contact-section {
     padding: 5rem 0;
     background-color: var(--primary);
@@ -365,7 +345,6 @@ nav{
     background-color: var(--secondary);
 }
 
-/* Active nav link */
 .nav-link.active {
     color: var(--tertiary);
     font-weight: 600;
@@ -411,7 +390,7 @@ button:hover{
 
 
 
-/* Media Queries */
+
 @media (min-width: 768px) {
     .bio-content {
         flex-direction: row;
@@ -476,8 +455,3 @@ button:hover{
     }
 }
 
-@media (min-width: 1024px) {
-    .interests-grid {
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
